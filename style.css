@@ -26,6 +26,7 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .equal{
     width: 50%;
@@ -41,6 +42,7 @@ section{
     background-color: tomato;
     padding: 10px 20px;
     border-radius: 20px;
+    margin-bottom: 100px;
 }
 .add-banner{
     background-image: url(top-banner.png);
@@ -61,10 +63,17 @@ section{
 .mission-area{
     padding: 30px;
 }
-
 .mission{
     width: 40%;
-    box-shadow: 10px 10px 40px yellowgreen;
+    
+    box-shadow: 10px 10px 40px orange;
     margin-left: 5%;
     margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.mission1{
+    background-color: rgb(227, 240, 240);
 }
