@@ -5,6 +5,7 @@
 .border{
     border-left: 5px solid orangered;
     border-radius: 5px;
+    padding-left: 8px;
     padding-top: 8px;
     margin: 5px;
 }
@@ -37,12 +38,12 @@ section{
     width: 80%;
 }
 .explore-button{
+    font-size: 20px;
     text-decoration: none;
     color: seashell;
     background-color: tomato;
     padding: 10px 20px;
     border-radius: 20px;
-    margin-bottom: 100px;
 }
 .add-banner{
     background-image: url(top-banner.png);
@@ -76,4 +77,16 @@ section{
 }
 .mission1{
     background-color: rgb(227, 240, 240);
+}
+.limit{
+    font-size: 30px;
+}
+.bold{
+    font-size: 20px;
+}
+.develop{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
