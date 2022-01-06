@@ -1,6 +1,15 @@
 .font-style{
-    font-family: 'Josefin Sans', sans-serif
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0px;
+}
+.border{
+    border-left: 5px solid orangered;
+    border-radius: 5px;
+    padding-top: 8px;
+    margin: 5px;
+}
+body{
+    margin: 0;
 }
 .font-style{
     font-size: 50px;
@@ -34,7 +43,7 @@ section{
     border-radius: 20px;
 }
 .add-banner{
-    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/51/77/banner-yellow-pink-origami-style-template-v-vector-19975177.jpg);
+    background-image: url(top-banner.png);
     background-repeat: no-repeat;
 }
 .scroll{
@@ -48,4 +57,14 @@ section{
 }
 .year{
     color: orange;
+}
+.mission-area{
+    padding: 30px;
+}
+
+.mission{
+    width: 40%;
+    box-shadow: 10px 10px 40px yellowgreen;
+    margin-left: 5%;
+    margin-right: 5%;
 }
